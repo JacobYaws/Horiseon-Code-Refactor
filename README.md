@@ -12,7 +12,7 @@ GIVEN a webpage meets accessibility standards
 /WHEN I view the source code
 THEN I find semantic HTML elements/
     Changed all <div> entries to <section>, except for listed items in the header, which were changed to <nav>.
-    The <span> entries for the header to <bdi>
+   
 
 WHEN I view the structure of the HTML elements
 THEN I find that the elements follow a logical structure independent of styling and positioning
