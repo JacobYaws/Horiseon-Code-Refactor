@@ -1,29 +1,34 @@
-/* Sets the positioning of */
+/* Sets the positioning of the page and designates a box style for the entire page.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Gives a background color for anything on the page that is classified as the body, unless specified otherwise. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Gives the items in the header a buffer from the top of 10px, assigns a font-family for all of the text, provides a background color different from the rest of the body, and gives the text its own unique color. */
 .header {
-    padding: 20px;
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /* Sets all items in the header into a horizontal line. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /* Changes the color of 'seo' in Horiseon. */
 .header h1 .seo {
     color: #d9dcd6;
 }
+
 /* Sets the navigation items in the header to the right, middle of the header, and assigns a text style to them. */
 .header nav {
     padding-top: 15px;
@@ -32,25 +37,29 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Sets the ul elements to remain unlisted. */
 .header nav ul {
     list-style-type: none;
 }
 
+/* Sets the nav items to be placed horizontally to each other with 25 pixels of spacing between each other.*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Text with this class will be set to the selected color. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Text with this class will be set to the selected font size. */
 p {
     font-size: 16px;
 }
 
+/* The section with this class will show the image that is linked. The image will be centered with the page, scaled to cover the page, be the same width as the page, and 25px above the next section below.   */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +69,26 @@ p {
     background-position: center;
 }
 
+/* Any item with this class will be shifted to the left side. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Any item with this class will be shifted to the right side. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Items affected by this class will have its width reduced, shifted to the right, and displayed horizontally within the space allowed. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Items affected by this class will be positioned on the right side of the page, clear of floating items on both sides, width reduced to fit on the side of the page in a column with the contents placed in the center of the box, assigned a text family to follow, and a background color. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,22 +100,26 @@ p {
     background-color: #2589bd;
 }
 
+/* All items assigned this class will be positioned 32px above the top of the others and have a text color of white. */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* All items assigned this class will be positioned 10px above the top of the others and the text will be centered. */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* All items assigned this class will be displayed in a block to be centered, spaced 10px vertically between each other, and restriced to a width of 150px. */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* All items assigned this class will be spaced 20px vertically between each other, spaced 50px from the top of their own section, given an individual height of 300px, a font family to follow, a background color of blue, and a text color of white. */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,15 +129,18 @@ p {
     color: #ffffff;
 }
 
+/* All items assigned this class will have their height restriced to 200px. */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* All items assigned this class will be positioned 20px below the parent object and a font size set to 36px.*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* All items assigned this class will be shifted 30px within its section, clear of floating items on both sides, assigned a font family to follow, and the text will be centered.*/
 .footer {
     padding: 30px;
     clear: both;
@@ -128,6 +148,7 @@ p {
     text-align: center;
 }
 
+/*All items assigned this class will have a font size of 20px. */
 .footer h2 {
     font-size: 20px;
 }
