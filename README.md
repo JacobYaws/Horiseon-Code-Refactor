@@ -10,7 +10,7 @@ For this project, I was tasked with refactoring code for a website to better opt
 
 [Overview](#overview)
 [Screenshots](#screenshots)
-[Useful-Links](#useful links)
+[Links](#links)
 
 
 ## Overview
